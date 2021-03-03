@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import {
   AiFillLinkedin,
   AiFillGithub,
@@ -65,22 +64,26 @@ const About = () => {
 
           <ul>
             <li className="list-social-icons">
-              <a href="#">
+              <a
+                href="https://linkedin.com/in/john-almazan/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillLinkedin />
               </a>
             </li>
             <li className="list-social-icons">
-              <a href="#">
+              <a href="/">
                 <AiFillGithub />
               </a>
             </li>
             <li className="list-social-icons">
-              <a href="#">
+              <a href="/">
                 <AiFillFacebook />
               </a>
             </li>
             <li className="list-social-icons">
-              <a href="#">
+              <a href="/">
                 <AiFillYoutube />
               </a>
             </li>
