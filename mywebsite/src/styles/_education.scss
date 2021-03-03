@@ -1,0 +1,39 @@
+.row {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding-top: 1.5rem;
+}
+
+.col {
+  flex: 40%;
+  margin: 1rem;
+  text-align: center;
+}
+
+img {
+  display: none;
+}
+
+.divider {
+  display: block;
+  padding: 0.75rem;
+  border-bottom: 1px solid #dee2e6;
+}
+
+@media (min-width: 768px) {
+  .row {
+    flex-direction: row;
+  }
+
+  img {
+    display: inline;
+    max-width: 60%;
+    min-width: 150px;
+    padding-bottom: 0.5rem;
+  }
+
+  .divider {
+    display: none;
+  }
+}
