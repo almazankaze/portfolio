@@ -73,7 +73,11 @@ const About = () => {
               </a>
             </li>
             <li className="list-social-icons">
-              <a href="/">
+              <a
+                href="https://github.com/almazankaze"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
                 <AiFillGithub />
               </a>
             </li>
