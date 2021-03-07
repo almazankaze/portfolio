@@ -28,12 +28,30 @@ export const MyProjects = [
   },
   {
     id: 4,
+    title: "Grade Tracker",
+    projectLink: "https://youtu.be/NWHj1km2aVU",
+    gitLink: "https://github.com/almazankaze/GradeTracker",
+    description:
+      "Created a program with a UI which kept track of my grades during college backed up to a database to save them so I could see my progress during the semester.",
+    tools: "Java, MySql, JavaFX, IntelliJ",
+  },
+  {
+    id: 5,
     title: "Bowling App",
     projectLink: "https://almabudgetapp-45a33f.netlify.app/",
     gitLink: "https://github.com/almazankaze/bowlingApp",
     description:
       "Players can keep track of their scores while bowling! This was done as a coding challenge for an interview and got the job!",
     tools: "Javascript, HTML, CSS, BootStrap, Git",
+  },
+  {
+    id: 6,
+    title: "Bug Tracker",
+    projectLink: "/",
+    gitLink: "https://github.com/almazankaze/BugTracker",
+    description:
+      "Created a web site which can be used by organizations to keep track of bugs found in their software.",
+    tools: "C#, Visual Studio, Microsoft SQL Server, ASP.NET Core, BootStrap",
   },
 ];
 
