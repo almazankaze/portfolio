@@ -20,7 +20,7 @@ const Education = () => {
           <h3>University of Illinois at Chicago</h3>
           <div className="subheading">Bachelor's Degree</div>
           <div>Computer Science - Software Engineering</div>
-          <p>December 2020&emsp;Major GPA: 3.28</p>
+          <p>December 2020&emsp;Major GPA: 3.48</p>
         </div>
       </div>
     </section>
