@@ -53,6 +53,15 @@ export const MyProjects = [
       "Created a web site which can be used by organizations to keep track of bugs found in their software.",
     tools: "C#, Visual Studio, Microsoft SQL Server, ASP.NET Core, BootStrap",
   },
+  {
+    id: 7,
+    title: "Birthday Board",
+    projectLink: "https://birthdaywish-ea875.web.app/",
+    gitLink: "https://github.com/almazankaze/birthdayWish",
+    description:
+      "Created a web site where user can create a page for a friend's birthday. Other friends can then go on there and wish him/her a happy birthday!",
+    tools: "Javascript, HTML, CSS, react, firebase",
+  },
 ];
 
 export default MyProjects;
